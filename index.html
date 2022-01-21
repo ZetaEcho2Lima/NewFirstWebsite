@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Introduction Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body>
+
+<!--This is initiating the header of the webpage and placing text within the box class, calling the CSS formatting for the attributes of the test and the box.-->
+<header>
+<div class="box round text-centered wrapper">
+<h1>Kaleb Zelazoski</h1>
+<h2>Future Software Developer</h2></div>
+</header>
+
+<!-- I created a custom horizontal separation. When this is called, it creates a hard defined line between the elements of the webpage, should it ever be needed-->
+<div class="wrapper"><hr></div>
+
+<main>
+<!-- Initiating the main body of the webpage.-->
+
+  <!-- Section off the image, calls it with a relative link, since the image is on the same server, then centers it to make it pretty.-->
+		<article> <section> <div class="text-centered wrapper"><img src="images/me.png" alt="Picture of Kaleb" width="350"></div>
+    <!-- I move on to create a the same box used in the header, utilizing it for a background to the text with the purple background to offset. I like it, and that's what matters! I run the box through to the end of the body, reinitiating it once more for the footer. -->
+   
+    <!-- text in their proper categories for how I wanted them to look. this is mostly uniform throughout the page with the headings done in one text and the bodies done in another. I did not think this was a style program, but I can certainly brush up on my color theory if necessary.-->
+    <div class="box round text-centered wrapper">
+    <h3>Hi! I'm Kaleb!</h3>
+    <p>I am currently a student at the Thinkful bootcamp, looking to transfer to Software Development from my attorney career. I currently live in Milwaukee, Wisconsin and have been here for about 5 years after moving here for law school.</p></div></section>
+  
+  <!-- For this section, I seperated out the classes, calling them with both a section and a div in order to properly end them. I needed the centering to stop before the box element. -->
+  <section class="box round wrapper">
+  <div class="text-centered">
+    <h3> About me!</h3></div>
+    <h4>Coding Experience</h4>
+  <!-- organizing different interest and experience with lists. I first utilize a statement, followed by an ordered list for the different expereicne I have with coding.-->
+  <p>Though only getting started recently, my past experience with coding includes:</p>
+  <ol>
+  <li><p>Two Computer Science Classes in Undergrad</p></li>
+  <li><p>Dabbling in HTML while trying to create a website in late Highschool</p></li>
+  <li><p>Thinkful's prep course covering Javascript and HTML/CSS basics.</p></li>
+  </ol>
+  <h4>Other Interests</h4>
+    <!-- Same thing, following a heading 4, but instead of an ordered list, these are just bullets - an unordered list.-->
+  <p>Generally speaking, most my interests are fairly nerdy:</p>
+  <ul>
+  <li><p>Board games, video games, and reading sci-fi or fantasy novels</p></li>
+  <li><p>Whittling/Woodworking</p></li><ul>
+     <li><p>I have a temporary workshop right now, so I am limited in the work I can do to small crafts. Still, always good for decompression!</p></li>
+</ul></ul>
+</section>
+  <!-- end section and behin a new.-->
+<section>
+  <div class="box round text-centered wrapper"><h3> I very much look forward to working with others through my adventure of learning code!</h3></div></section></article></main>
+
+    <!-- Recall neat black line-->
+<div class="wrapper"><hr></div>
+  
+  <footer><article><div class="box round wrapper">
+<h4><b>Contact information in order of preference:</b></h4>
+<ul>
+<!-- Here, I created three different links. First, a direct link to emailing me, next a link to my github, and finally, to linked in. As I do not have a linked in, I am linking to the main page of linked in. I do not intend to create a linkedin, so long as it can be avoided.
+
+I put these into a list. - an unordered one-->
+  <li><a href="mailto:kzelazoski1@gmail.com"> Click To Email Me! -- kzelazoski1@gmail.com</a></li>
+  <li><a href="https://github.com/ZetaEcho2Lima">My Github</a></li>
+  <li><a href="https://www.linkedin.com"> LinkedIn: I do not have one, but linking to front page for now</a></li></ul>
+  </div></article>
+  </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
