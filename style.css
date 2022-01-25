@@ -19,25 +19,25 @@ footer {
   margin-bottom: 0px;   
 }
 
-/*Declaring various styling elements to call for text throughout the code. I did not change the size for most, as I think the sizing as is tends to be sufficient. the size is not changes for h1-h4 nor for the base p. The elements here are color and the font family, with some alternatives for each*/
+/*Declaring various styling elements to call for text throughout the code. I did not change the size for most, as I think the sizing as is tends to be sufficient. the size is not changes for h1-h4 nor for the base p. The elements here are color and the font family, with some alternatives for each. I like the font type for my page design.*/
 h1 {
   color: white;
-  font-family: 'Brush Script MT', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
   color: white;
-  font-family: 'Brush Script MT', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
   color: white;
-  font-family: 'Brush Script MT', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h4 {
   color: white;
-  font-family: 'Brush Script MT', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* simple text for the general paragraph, turned white to stand out on the box background. This one is different from the rest, as I wanted the general text to be set off. I additionally shrunk the size down a bit*/
 p {
@@ -54,6 +54,7 @@ hr {
   background-color: black;
   border: 2px solid black;
 }
+
 /*these two functions are the core of creating the black background boxes. .box initialized the black background while .round rounds off the edges.*/
 .box {
   background-color: black;
